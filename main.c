@@ -20,7 +20,7 @@ int main() {
     while ((ch = fgetc(file)) != EOF) {
         putchar(ch);
     }
-
+    printf("\n");
     fclose(file);
     return 0;
 }
