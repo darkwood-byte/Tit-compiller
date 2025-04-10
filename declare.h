@@ -8,5 +8,8 @@
 #define T 1
 #define F 0
 
+//more
+#define or ||
+#define and &&
 
 #endif
