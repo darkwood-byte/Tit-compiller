@@ -3,8 +3,8 @@
 
 int main() {
     const char *inputFile = "data.tit";        // Bestandsnaam met C-code
-    const char *outputFile = "temp.c";  // Tijdelijk .c bestand
-    const char *executable = "binary";   // Naam van de gecompileerde uitvoer
+    const char *outputFile = "temp_output.c";  // Tijdelijk .c bestand
+    const char *executable = "program_exec";   // Naam van de gecompileerde uitvoer
 
     // Stap 1: Open inputbestand
     FILE *in = fopen(inputFile, "rb");
