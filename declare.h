@@ -12,4 +12,6 @@
 #define or ||
 #define and &&
 
+void WaveOut(char* X, char* Y);
+
 #endif
