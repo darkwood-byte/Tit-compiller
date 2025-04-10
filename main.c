@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "declare.h"
 
 int main() {
     const char *inputFile = "data.tit";        // Bestandsnaam met C-code
@@ -43,6 +44,8 @@ int main() {
     char runCommand[128];
     snprintf(runCommand, sizeof(runCommand), "./%s", executable);
     system(runCommand);
+
+    Log("hi");
 
     return 0;
 }
