@@ -13,7 +13,7 @@
 #define and &&
 #define Log printf
 
-void WaveOut(char* X, char* Y);
+void WaveOut(char X, char* Y);
 void Write(char* Txt, char* Path);
 
 #endif
