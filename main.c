@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include "declare.h"
 
 //hallo 
 
@@ -22,5 +22,8 @@ int main() {
     }
     printf("\n");
     fclose(file);
+
+    char Playername[50] = "Markiplier";
+    WaveOut("Hi ", Playername);
     return 0;
 }
