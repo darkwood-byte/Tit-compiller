@@ -13,3 +13,8 @@ void WaveOut(char* X, char* Y)
         printf("%s%s", X);
     }
 }
+
+void Write(char* Txt, char* Path)
+{
+
+}
