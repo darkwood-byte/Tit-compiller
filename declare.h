@@ -2,6 +2,11 @@
 #ifndef DECLARE_H
 #define DECLARE_H
 
+//declarations
+
+//bools
+#define T 1
+#define F 0
 
 
 #endif
