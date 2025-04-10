@@ -16,7 +16,7 @@ int main() {
 
     printf("Reading contents of '%s':\n\n", filename);
 
-    char ch;
+    int ch;
     while ((ch = fgetc(file)) != EOF) {
         putchar(ch);
     }
