@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
+//hallo 
+
+
 int main() {
     const char *filename = "data.tit";
     FILE *file = fopen(filename, "rb");
